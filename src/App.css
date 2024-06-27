@@ -1,5 +1,6 @@
 section {
   padding-left: 100px;
+  padding-right: 100px;
   padding-top: 150px;
   min-height: 100vh;
   /* background-color: #FEFCED; */
@@ -13,7 +14,7 @@ html {
   background-color: #FEFCED;
 }
 #skills{
-  background-color: blue;
+  background-color: #FEFCED;
 }
 #projects{
   background-color: red;

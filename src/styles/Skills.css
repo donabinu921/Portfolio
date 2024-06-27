@@ -1,0 +1,32 @@
+.skills-icon{
+    width: 100px;
+    height: auto;
+    color: #1c38ca;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    color: #000;
+}
+
+h3{
+    color: #1c38ca;
+    font-weight: 700;
+}
