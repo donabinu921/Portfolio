@@ -2,7 +2,7 @@ section {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 150px;
-  min-height: 100vh;
+  min-height: 80vh;
   /* background-color: #FEFCED; */
 }
 
@@ -20,8 +20,10 @@ html {
   background-color: red;
 }
 #contactme{
-  background-color: green;
+  background-color: #FEFCED;
 }
 #about{
-  background-color: yellow;
+  background-color: #FEFCED;
+  border-bottom: #1c38ca 1px solid ;
+  /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); */
 }

@@ -1,0 +1,16 @@
+.about-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-p{
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5;
+    margin-right: 5rem;
+}
+
+h2{
+    font-weight: 700;
+    color: #1c38ca;
+}
