@@ -1,0 +1,47 @@
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.project{
+    margin-top: 50px;
+    padding: 20px;
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px rgba(0, 123, 255, 0.2);
+    background-color: #FEFCED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.project-img{
+    width: 350px;
+    height: auto;
+}
+
+.project-name{
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.project-desc{
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.project-link{
+    text-decoration: none; 
+    color: inherit;
+}
